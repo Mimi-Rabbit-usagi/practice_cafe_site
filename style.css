@@ -1,0 +1,46 @@
+/*共通部分*/
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  width: 150px;
+  margin: 14px 10px;
+}
+/*header*/
+.main-nav {
+  display: flex;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin-top: 35px;
+  list-style: none;
+}
+
+.main-nav li {
+  margin-left: 36px;
+}
+
+.main-nav a {
+  color: rgb(22, 97, 22);
+}
+
+.main-nav a:hover {
+  color: rgb(216, 91, 12);
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
