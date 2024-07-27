@@ -17,7 +17,11 @@ img {
 }
 
 #home {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.5)),url(/image/soy-tea07.png);
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(image/soy-tea07.png);
   min-height: 100vh;
 }
 
