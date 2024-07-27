@@ -102,3 +102,30 @@ img {
 .button:hover {
   background: #d85b0a;
 }
+
+/* News */
+#news {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(image/soy-tea05.png);
+  height: 270px;
+  margin-bottom: 40px;
+} /* 本当は元画像の表示の範囲を下の方に変えたい */
+
+#news .page-title {
+  text-align: center;
+}
+
+/* フッター */
+footer {
+  background: rgb(22, 97, 22);
+  text-align: center;
+  padding: 26px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 0.875rem;
+}
