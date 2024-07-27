@@ -21,7 +21,7 @@ img {
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.5)
     ),
-    url(./image/soy-tea07.png);
+    url(image/soy-tea07.png);
   min-height: 100vh;
 }
 
