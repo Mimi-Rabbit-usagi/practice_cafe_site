@@ -253,7 +253,18 @@ footer p {
 
 .menu-content p {
   font-size: 1.125rem;
-  margin: 20px 0 0;
+  font-family: "M PLUS 1p", sans-serif;
+  letter-spacing: 3.5px;
+  line-height: 35px;
+  margin: 50px 0 0;
+}
+
+.grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 6%;
+  margin-bottom: 50px;
 }
 
 /* モバイル版 */
@@ -323,5 +334,12 @@ footer p {
   /* MENU */
   .menu-content {
     margin-top: 20%;
+  }
+  .grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 6%;
+    margin-bottom: 50px;
   }
 }
