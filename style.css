@@ -267,6 +267,75 @@ footer p {
   margin-bottom: 50px;
 }
 
+/* CONTACT */
+#contact {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(image/exterior-cafe05.png);
+  min-height: 100vh;
+}
+
+/* フォーム */
+form div {
+  margin-bottom: 50px;
+}
+label {
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 1.125rem;
+  margin-bottom: 8px;
+  display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px #fff solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  font-family: "M PLUS 1p", sans-serif;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  max-width: 240px;
+}
+textarea {
+  width: 100%;
+  max-width: 480px;
+  height: 6rem;
+}
+input[type="submit"] {
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
+
+/* 店舗情報・地図 */
+#location {
+  padding: 4% 0;
+}
+#location .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.location-info {
+  width: 22%;
+}
+.location-info p {
+  padding: 12px 10px;
+}
+.location-map {
+  width: 74%;
+}
+
+/* iframe */
+iframe {
+  width: 100%;
+}
+
 /* モバイル版 */
 @media (max-width: 600px) {
   .page-title {
@@ -341,5 +410,16 @@ footer p {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     margin-top: 6%;
     margin-bottom: 50px;
+  }
+  /* CONTACT */
+  #contact .page-title {
+    margin-top: 40px;
+  }
+
+  /* フォーム */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    max-width: 100%;
   }
 }
