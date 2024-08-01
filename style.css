@@ -422,4 +422,12 @@ iframe {
   textarea {
     max-width: 100%;
   }
+  /* 店舗情報・地図 */
+  #location .wrapper {
+    flex-direction: column;
+  }
+  .location-info,
+  .location-map {
+    width: 100%;
+  }
 }
