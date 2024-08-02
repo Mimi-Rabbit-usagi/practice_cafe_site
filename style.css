@@ -337,7 +337,7 @@ iframe {
 }
 
 /* モバイル版 */
-@media (max-width: 600px) {
+@media (max-width: 735px) {
   .page-title {
     font-size: 2.5rem;
   }
