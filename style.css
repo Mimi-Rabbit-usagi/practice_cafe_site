@@ -339,7 +339,7 @@ iframe {
 }
 
 /*Topへスクロールボタン*/
-#myBtn {
+#mybtn {
   display: none;
   position: fixed;
   bottom: 90px;
@@ -353,7 +353,7 @@ iframe {
   font-size: 1rem;
 }
 
-#myBtn:hover {
+#mybtn:hover {
   background-color: #8d8258;
 }
 
