@@ -84,6 +84,27 @@
         </div><!-- /.location-map -->
       </div><!-- /.wrapper -->
     </section><!-- /#location -->
+    <button id="myBtn" onclick="topFunction()">Top</button>
+    <script>
+      // ボタンを取得
+      var mybutton = document.getElementById("myBtn");
+
+      // ユーザーが20pxスクロールしたらボタンを表示
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+          if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+              mybutton.style.display = "block";
+          } else {
+              mybutton.style.display = "none";
+          }
+      }
+
+      // ボタンクリック時にページトップにスクロール
+      function topFunction() {
+          window.scrollTo({top: 0, behavior: 'smooth'});
+      }
+  </script>
     <footer>
       <!-- フッター情報 -->
       <div class="wrapper">
