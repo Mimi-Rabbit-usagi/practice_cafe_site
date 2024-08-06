@@ -130,6 +130,11 @@ article {
   width: 74%;
 }
 
+/* ニュースページ */
+.post-title a {
+  margin-right: 20px;
+}
+
 .post-info {
   position: relative;
   padding-top: 4px;
