@@ -243,11 +243,13 @@ hr {
 }
 
 .post-title,
-.post-cat {
+.post-cat,
+.news-cat {
   margin-left: 120px;
 }
 
-.post-cat a {
+.post-cat a,
+.news-cat a {
   color: #4c544d;
   font-weight: bold;
   text-decoration: none;
@@ -470,6 +472,22 @@ iframe {
   }
 
   /* 記事一覧 */
+  .news-contents-box {
+    height: 500px;
+  }
+
+  .news-thumb {
+    margin: auto;
+    float: none;
+  }
+
+  .news-title {
+    padding: 0;
+  }
+
+  .news-cat {
+    margin-left: 0;
+  }
 
   #news .page-title {
     margin-top: 30px;
@@ -500,6 +518,9 @@ iframe {
     width: 100%;
     height: 260px;
     object-fit: cover;
+  }
+  .news-button {
+    float: none;
   }
 
   .post-info {
