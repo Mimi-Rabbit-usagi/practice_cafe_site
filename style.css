@@ -198,7 +198,7 @@ article {
 }
 
 .news-button:hover {
-  color: #d85b0a;
+  background-color: #d85b0a;
 }
 
 hr {
@@ -260,6 +260,10 @@ hr {
   text-decoration: none;
   color: #146116;
   font-weight: bold;
+}
+
+.return-btn:hover {
+  color: #d85b0a;
 }
 
 article img {
