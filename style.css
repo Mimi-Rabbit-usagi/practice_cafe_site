@@ -131,6 +131,13 @@ article {
   width: 74%;
 }
 
+/* 記事なしカテゴリ内 */
+.news-no-posts {
+  color: #4c544d;
+  margin: 100px;
+  text-align: center;
+}
+
 /* 記事一覧 */
 .news-contents-box {
   height: 240px;
@@ -510,6 +517,10 @@ iframe {
 
   #news {
     margin-bottom: 20px;
+  }
+
+  .news-no-posts {
+    margin: 30px;
   }
 
   .news-date {
