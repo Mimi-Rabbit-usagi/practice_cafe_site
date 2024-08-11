@@ -4,6 +4,7 @@
 html {
   font-size: 100%;
   overflow-x: hidden;
+  background-color: #fff;
 }
 
 img {
@@ -253,6 +254,11 @@ hr {
   color: #4c544d;
   font-weight: bold;
   text-decoration: none;
+}
+
+.return-btn {
+  text-decoration: none;
+  color: #4c544d;
 }
 
 article img {
