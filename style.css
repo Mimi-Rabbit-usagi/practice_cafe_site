@@ -259,6 +259,11 @@ hr {
 .return-btn {
   text-decoration: none;
   color: #146116;
+  font-weight: bold;
+}
+
+.return-btn:hover {
+  background: #d85b0a;
 }
 
 article img {
